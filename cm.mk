@@ -5,9 +5,6 @@ TARGET_SCREEN_WIDTH := 1440
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
@@ -22,5 +19,5 @@ TARGET_VENDOR := moto
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=shamu \
-    BUILD_FINGERPRINT=google/shamu/shamu:6.0.1/MOB31E/3142026:user/release-keys \
-    PRIVATE_BUILD_DESC="shamu-user 6.0.1 MOB31E 3142026 release-keys"
+    BUILD_FINGERPRINT=google/shamu/shamu:6.0.1/MOB31K/3342486:user/release-keys \
+    PRIVATE_BUILD_DESC="shamu-user 6.0.1 MOB31K 3342486 release-keys"
